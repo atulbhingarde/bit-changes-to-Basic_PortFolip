@@ -209,6 +209,8 @@
       box-sizing: border-box;
       transition: all 500ms ease; 
       margin-top: 10px;
+      padding: unset;
+      padding: 0%;
     }
     
     button1:before {
@@ -252,6 +254,19 @@ span.tooltip:after {
       top: 0px;
       left: -48px;
 }
+#body {
+  background-color:#ccc;
+  height:100%;
+  width:100%;
+  display:block;
+}
 
+text_area#editor {
+  border:none;
+  width:80%;
+  height:100%;
+  margin-left:10%;
+  margin-right:10%;
+}
   
   
