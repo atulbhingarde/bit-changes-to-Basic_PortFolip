@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" name="viewport" content1="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible" />
-  <meta name="Description" content="Put your description here.">
+  <meta charset="UTF-8" />
+  <!--meta name="Description" content="About me "-->
   <title>Homework-2</title>
   <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
   <!-- now set it to all that most of the browsers would tolerate-->
@@ -11,24 +11,22 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link   rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet href="./assets/css/normalize.css" />
+  <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
   
 </head>
-<body>
-  <!--Top bar with name and links to alternate pages-->
-  <Header>
-      <div class="box1">
-        <span id="myname">Atul Bhingarde</span>
-        <div class="rightheader">
-            <a href="index.html">About    |</a>
-            <a href="portfolio.html">Portfolio    |</a>
-            <a href="contact.html">Contact    |</a>
-        </div> 
-      </div>
-  </Header>
-
-
+<!--Top bar with name and links to alternate pages-->
+<header>
+    <div class="box1">
+      <span id="myname">Atul Bhingarde</span>
+      <div class="rightheader">
+          <a href="index.html">About    |</a>
+          <a href="portfolio.html">Portfolio    |</a>
+          <a href="contact.html">Contact    |</a>
+      </div> 
+    </div>
+</header>
+<!--body-->
 <!--need word wrap on message box, as well as remove center float on text - Content box in center of page 960 px wide fixed-->
 
       <div class="content1">
@@ -42,7 +40,7 @@
 
    <!-- Text entry box 1 for Name  borrowed code form W3 -- we may not have covered this so far -->     
 
-        <div class="image-container" font-size="30px">
+        <div class="image-container">
           <!--form action="mailto:abhingar@bellsouth.net"-->
             <br>
             <label for="fname">Name</label>
@@ -52,20 +50,21 @@
             <label for="lname">Email</label>
             <br>
             <input type="text" id="lname" name="email" placeholder="yourid@domain.com">
-            <br><br>
-            <textarea title="content" title="this is where you can type your hearts cntent for me" id="message" class=text_area>Key on your message here please.</textarea>
+            <br/><br/>
+            <textarea title="this is where you can type your hearts cntent for me" id="message" class=text_area>Key on your message here please.</textarea>
             <!--label for="message">Message</label>
-            <br>
+            <br/>
             <input id="message" name="message" placeholder=""-->
             <!--div class="button_cont" align="center"><a class="example_a" >Add Call to Action</a></div-->
-            <br><button1 title=" do not hesitate to drop me a email " onclick=sendmail(); return false;>click to send email send email</button1></br>
+            <br/>
+            <br/>
         </div>
 
+            <button1 title=" do not hesitate to drop me a email " onclick=sendmail();>click to send email send email</button1>
 
             <br>
 
             <!-- >input type="submit" value="Submit" -->
-          </form>
           <script>
           function sendmail() {
             var link = "mailto:me@example.com"
@@ -83,12 +82,11 @@
 
 
           </div>
-      </div>
  
-<!--Footer is positioned -- bonus is to make sticky on all pages -->
-  <footer>
-        <p>&copy copyright pending well you can still copy </p>  </footer>
-
+<footer>
+    <!--script>for(var LineCount=0; LineCount<10; LineCount++ ) { document.write("<br>"); }</script-->
+    <p>&copy copyright pending well you can still copy </p>
+</footer>
 
 </body>
 
