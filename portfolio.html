@@ -5,30 +5,28 @@
   <meta name="Description" content="Put your description here.">
   <title>Homework-2</title>
   <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
-  <link   rel="stylesheet" href="./assets/css/reset.css" />
   <!-- now set it to all that most of the browsers would tolerate-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link   rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
   
 </head>
+<!--Top bar with name and links to alternate pages-->
+<header>
+    <div class="box1">
+      <span id="myname">Atul Bhingarde</span>
+      <div class="rightheader">
+          <a href="index.html">About    |</a>
+          <a href="portfolio.html">Portfolio    |</a>
+          <a href="contact.html">Contact    |</a>
+      </div> 
+    </div>
+</header>
 <body>
-  <!--Top bar with name and links to alternate pages-->
-  <Header>
-      <div class="box1">
-        <span id="myname">Atul Bhingarde</span>
-        <div class="rightHeader">
-            <a href="index.html">About    |</a>
-            <a href="portfolio.html">Portfolio    |</a>
-            <a href="contact.html">Contact    |</a>
-        </div> 
-      </div>
-  </Header>
-
-
 <!--need word wrap on message box, as well as remove center float on text - Content box in center of page 960 px wide fixed-->
 
       <div class="content1">
@@ -38,17 +36,17 @@
       
 
         <hr>
-            <div1>
+            <div class="image-container">
                 
                 <img src = "./assets/images/boschrouter.png" title="this is a router works on table or hand or on table" style="border: #00008B 1px solid;" alt = "boschrouter" />
                 <img src = "./assets/images/drillpress.png" title="this is a drill press helps drilling hole vertically down or perpendicular to surface" style="border: #00008B 1px solid;" alt = "drillpress">
                 <img src = "./assets/images/sander.png" title="this is a sander that allowes one to do sanding" style="border: #00008B 1px solid;" alt = "sander">
                 <img src = "./assets/images/workbench.png" title="this is a workbench that helps one to work on the bench" style="border: #00008B 1px solid;" alt = "workbench">
-                <img src = "./assets/images/tablesaw.png" title="this is a circular say that allows one to cut material at an angle set angles are 90&deg ,60&deg ,30&deg  style="border: #00008B 1px solid;" alt = "tablesaw">
-                <img src = "./assets/images/joiner.png" title="this is a joiner, this allows making two suraces at 90&deg, preparation for the joining process" estyle="border: #00008B 1px solid;" alt = "joiner">
-                <img src = "./assets/images/planar.jpg" style="border: #00008B 1px solid;" alt = "planar">
+                <img src = "./assets/images/tablesaw.png" title="this is a circular say that allows one to cut material at an angle set angles are 90&deg ,60&deg ,30&deg"  style="border: #00008B 1px solid;" alt = "tablesaw">
+                <img src = "./assets/images/joiner.png" title="this is a joiner, this allows making two suraces at 90&deg, preparation for the joining process" style="border: #00008B 1px solid;" alt = "joiner">
+                <img src = "./assets/images/planar.jpg" title="this tool helps making thickenss same for all the material that is going to join " style="border: #00008B 1px solid;" alt = "planar">
 
-            </div1>
+            </div>
       </div>
 </body>
 <!--Footer is positioned -- bonus is to make sticky on all pages -->
